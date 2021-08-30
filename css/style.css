@@ -22,10 +22,98 @@ body{
     position: relative;
 }
 
+.icons{
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header{
     width: 100%;
-    height: 30px;
+    height: 54px;
     background: white;
-    display: grid
-    
+    margin: auto;
+    background: white;
+    border: solid 1px #DADADA;
 }
+
+.navbar{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar__brand-logo{
+    width: 120px;
+    height: 35px;
+    background-image: url("./assets/icons/logo.PNG");
+
+}
+
+.navbar__search-box{
+    width: 200px;
+    height: 28px;
+    border: solid 1px #DBDBDB;
+    border-radius: 3px;
+    background: #F9F9F9;
+    text-align: center;
+
+}
+
+/* .navbar__link{
+
+    display: block;
+    width: 25px;
+    height: 25px;
+} */
+
+.navbar__menu{
+    /* width: 30%; */
+    height: 100;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__icon{
+    margin: 0 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.navbar__icon--home{
+    
+    background-image: url("./assets/icons/home.PNG");
+    margin-left: 0;
+
+}
+
+.navbar__icon--massenger{
+
+
+    background-image: url("./assets/icons/messenger.PNG");  
+}
+
+.navbar__icon--explore{
+    background-image: url("./assets/icons/explore.PNG");  
+}
+
+.navbar__icon--heart{
+    background-image: url("./assets/icons/like.PNG");
+}
+
+.navbar__icon--perfil{
+    background-image: url("./assets/images/cover 1.png");
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+
+
