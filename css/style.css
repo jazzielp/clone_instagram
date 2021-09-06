@@ -50,6 +50,7 @@ body{
 
 .navbar__brand-logo{
     width: 120px;
+    min-width: 120px;
     height: 35px;
     background-image: url("./assets/icons/logo.PNG");
 
@@ -120,7 +121,37 @@ body{
 
     width: 50%;
     display: grid;
-    
+    margin: 30px auto;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
 
+}
+
+.history__container{
+    margin: 10px 0 10px 15px;
+}
+
+.history{
+    
+    /* height: 90px; */
+    background: white;
+    display: flex;
+    align-items: center;
+    border: solid 1px #DADADA;
+    border-radius: 2px;
+
+}
+
+.history__img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 1px;
+    border: solid 1px red;
+}
+
+.history__p{
+    text-align: center;
 }
 
