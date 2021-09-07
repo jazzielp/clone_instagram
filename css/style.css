@@ -144,8 +144,8 @@ body{
 }
 
 .history__img{
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding: 1px;
     border: solid 1px red;
@@ -153,5 +153,7 @@ body{
 
 .history__p{
     text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
 }
 
