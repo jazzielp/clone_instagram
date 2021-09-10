@@ -29,6 +29,13 @@ body{
     background-size: cover;
 }
 
+.icon{
+    margin: 0 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
 .header{
     width: 100%;
     height: 54px;
@@ -80,12 +87,7 @@ body{
     align-items: center;
 }
 
-.navbar__icon{
-    margin: 0 10px;
-    display: block;
-    width: 20px;
-    height: 20px;
-}
+
 
 
 
@@ -211,4 +213,52 @@ body{
 .card__picture{
     width: 100%;
     height: auto;
+}
+
+
+.card__bar-button{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+
+
+.card__buttons-left{
+    display: flex;
+}
+
+
+.card__icon--like{
+    background: url("./assets/icons/like.PNG");
+   
+}
+
+.card__icon--comment{
+    background: url("./assets/icons/comment.PNG");
+   
+}
+
+.card__icon--send{
+    background: url("./assets/icons/send.PNG");
+ 
+}
+
+.card__icon--save{
+    background: url("./assets/icons/save.PNG");
+    
+}
+
+.card__icon{
+
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+
 }
